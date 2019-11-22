@@ -30,7 +30,6 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "marcio": "concurrently \"react-scripts start\" \" node Server.js\" ",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
