@@ -1,14 +1,38 @@
-This project is a website made for my mother, Gilla Miranda.
-THe set up of thsi website is fairly simple in my src folder I decided to have 2 folders. 'Core' which is where you will find our NavBar and Footer. 'Feature' which is where you will find our pages components that we will import onto our 'Pages' folder. This set up seemed cleaner to me and it also allowed me to change the order of the components whithout having to change any code. 
-
-What did we use?
-
-What were our challenges?
-Some of the challenges I encountered was making my footer stay at the bottom, for some reason it only works if in my ComingCoon.scss I include a height of 1300px. My biggest challenge was creating my dnv, most of time was spent on this because I kept changing how many tables I wanted and how specific I wanted to make it s
-Breif description of process :
+# Authorization Page
 
 
 
+The task was to build a UI for my products page while connecting it to my own MongoDB Atlas Database. Only allowing the admin to login and see the products to manipulate them if needed. This task was built and launched on Heroku by Reginald Johnson Jr
+https://authreggie.herokuapp.com/
+
+# Prerequisites & Installation!
+```
+   1.   git clone the repository
+   2.   open in code editor
+   3.     open terminal
+   4.     npm install
+   5.    create .env with your own local mongoDB
+   6.   npm run start
+  ```
+
+
+##  Languages & Tools
+  - __React__ is used for the UI
+  - __MongoDB__ is used for our database to record products and personal user information
+  - __node.js__  evented I/O for the backend
+  - __Express__ using Express to connect endpoints from our database to our UI
+  - __Morgan__ to log when a client hits our endpoints
+ 
+
+
+
+## Authors
+
+Author(s) contributed to all back-end and front-end code to this project. All author(s) contributed to deploying
+
+| Name | Github Links |
+| ------ | ------ |
+| Gianna Miranda | [https://github.com/gianna-miranda|
 
 
 
@@ -18,10 +42,9 @@ Breif description of process :
 
 
 
+License
+----
 
-<!-- ******My Project Crashing- Gianna Miranda
-My project crashed this morning, it started off as a sass error, but then "Element type is invalid" Kept showing up on the screen along with a message saying "25 stack frames were collapsed". At this point I was freaking out.(you can find a screenshot of this image in my image folder 'public/image/newError.png'). I am not sure what I did for that error to show up. 
-***Challenge: (what does collapsed mean? what does that error mean? how to fix it?)
+MIT - This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
-At this point I turned to github to go back to when it was working, which I hadent done yet. The only push I had made was my skeleton. I used my broken code and my skeleton code to make this code. It is not my best I will be the first to admit it. I am very proud of this website, front end was more of a challenge for me and being able to put this together so quick was a great feeling. A feeling of success overcome by the nervousness/ emberacement of presenting this website incomplete. I will be refactoring this website until it is what I had invisioned it to be. -->
 
