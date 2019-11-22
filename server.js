@@ -6,11 +6,8 @@ const mongoose = require('mongoose')
 const usersRoutes = require('./routes')
 const productsAPI = require("./routes/productsAPI");
 const app = express()
-
 const PORT = 3001
-
 const MONGODB_URI = process.env.ATLAS_URI;
-const PORT = process.env.PORT;
 
 mongoose.set("useCreateIndex", true);
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true }, err => {
