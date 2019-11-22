@@ -1,0 +1,81 @@
+.NextCollection {
+    display: grid;
+    
+    grid-gap: 70px;
+    justify-content: center;
+    margin: 3em 0;
+    height: 900px; // affects footer position why? 
+}
+
+.ComingSoon {
+    text-align: center;
+    background-color: green;
+    height: 400px;
+    width: 500px;
+}
+
+/// 
+// #slider
+// .wrap
+//     .img(style="background-image: url(/img/posts/responsive-slider-with-sass-1.png)")
+//         .slider-content
+//             h1 Floating
+//     .img(style="background-image: url(/img/posts/responsive-slider-with-sass-2.png)")
+//         .slider-content
+//             h1 Start of Spring
+//     .img(style="background-image: url(/img/posts/responsive-slider-with-sass-3.png)")
+//         .slider-content
+//             h1 Honey Drops
+//     .img(style="background-image: url(/img/posts/responsive-slider-with-sass-4.png)")
+//         .slider-content
+//             h1 Dalia
+//     .img(style="background-image: url(/img/posts/responsive-slider-with-sass-5.png)")
+//         .slider-content
+//             h1 Exotic Dreams
+//     .img(style="background-image: url(/img/posts/responsive-slider-with-sass-6.png)")
+//         .slider-content
+//             h1 Ice Queen
+//     .img(style="background-image: url(/img/posts/responsive-slider-with-sass-1.png)")
+//         .slider-content
+//             h1 Floating
+// HTML:
+
+// <div id="slider">
+// <div class="wrap">
+// <div style="background-image: url(/img/posts/responsive-slider-with-sass-1.png)" class="img">
+//   <div class="slider-content">
+//     <h1>Floating</h1>
+//   </div>
+// </div>
+// <div style="background-image: url(/img/posts/responsive-slider-with-sass-2.png)" class="img">
+//   <div class="slider-content">
+//     <h1>Start of Spring</h1>
+//   </div>
+// </div>
+// <div style="background-image: url(/img/posts/responsive-slider-with-sass-3.png)" class="img">
+//   <div class="slider-content">
+//     <h1>Honey Drops</h1>
+//   </div>
+// </div>
+// <div style="background-image: url(/img/posts/responsive-slider-with-sass-4.png)" class="img">
+//   <div class="slider-content">
+//     <h1>Dalia</h1>
+//   </div>
+// </div>
+// <div style="background-image: url(/img/posts/responsive-slider-with-sass-5.png)" class="img">
+//   <div class="slider-content">
+//     <h1>Exotic Dreams</h1>
+//   </div>
+// </div>
+// <div style="background-image: url(/img/posts/responsive-slider-with-sass-6.png)" class="img">
+//   <div class="slider-content">
+//     <h1>Ice Queen</h1>
+//   </div>
+// </div>
+// <div style="background-image: url(/img/posts/responsive-slider-with-sass-1.png)" class="img">
+//   <div class="slider-content">
+//     <h1>Floating</h1>
+//   </div>
+// </div>
+// </div>
+// </div>

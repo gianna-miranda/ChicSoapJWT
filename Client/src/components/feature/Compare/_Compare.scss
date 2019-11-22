@@ -1,0 +1,18 @@
+.compare {
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 50px;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+.one {
+    text-align: center;
+    background: linear-gradient(to bottom, #009900 0%, #66ff66 100%);
+    
+}
+
+.two {
+    text-align: center;
+    background: linear-gradient(to bottom, #990000 0%, #ff0000 100%);
+}

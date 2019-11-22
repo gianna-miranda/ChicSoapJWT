@@ -1,0 +1,53 @@
+{
+  "name": "react-ecom",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-brands-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.5",
+    "bootstrap": "^4.3.1",
+    "chai": "^4.2.0",
+    "concurrently": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "node-sass": "^4.12.0",
+    "react": "^16.9.0",
+    "react-bootstrap": "^1.0.0-beta.13",
+    "react-dom": "^16.9.0",
+    "react-fontawesome": "^1.6.1",
+    "react-responsive-carousel": "^3.1.50",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "request": "^2.88.0",
+    "router": "^1.3.3",
+    "styled-components": "^4.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "marcio": "concurrently \"react-scripts start\" \" node Server.js\" ",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

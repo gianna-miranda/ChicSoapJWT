@@ -1,0 +1,23 @@
+.benefits {
+    display: grid;
+    // grid-template-columns: 800px 700px;
+    grid-gap: 50px;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+.ingredients {
+    text-align: center;
+    background: linear-gradient(to bottom, rgb(141, 167, 141) 0%, #9fc27c 100%);
+}
+h1 {
+    font-size: 35px;
+  }
+  
+  h2 {
+    font-size: 30px;
+  }
+  
+  p {
+    font-size: 25px;
+  }
