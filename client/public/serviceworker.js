@@ -10,13 +10,13 @@ const FILES_TO_CACHE = [
   "/assets/images/Vue.js-icon.png",
   "/manifest.webmanifest",
   "/favicon.ico",
-  "/assets/images/icons/icon_72x72.png",
-  "/assets/images/icons/icon_96x96.png",
-  "/assets/images/icons/icon_128x128.png",
-  "/assets/images/icons/icon_144x144.png",
-  "/assets/images/icons/icon_192x192.png",
-  "/assets/images/icons/icon_384x384.png",
-  "/assets/images/icons/icon_512x512.png",
+  "/assets/images/icons/icon_72x72.jpeg",
+  "/assets/images/icons/icon_96x96.jpeg",
+  "/assets/images/icons/icon_128x128.jpeg",
+  "/assets/images/icons/icon_144x144.jpeg",
+  "/assets/images/icons/icon_192x192.jpeg",
+  "/assets/images/icons/icon_384x384.jpeg",
+  "/assets/images/icons/icon_512x512.jpeg",
 ];
 
 const CACHE_NAME = "static-cache-v2"
